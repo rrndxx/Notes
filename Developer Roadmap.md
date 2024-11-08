@@ -3,12 +3,12 @@
 Welcome to your comprehensive guide to mastering the hottest technologies of **2024**. Whether you're a **beginner** or an experienced developer, this roadmap will help you **level up** your skills across **frontend**, **backend**, **full-stack**, **data science**, and **DevOps**.
 
 ## 🌐 Table of Contents
-- [Frontend Development 🖥️](#frontend-development-roadmap)
-- [Backend Development ⚙️](#backend-development-roadmap)
-- [Full-Stack Development 🌐](#full-stack-development-roadmap)
-- [Data Science & Machine Learning 📊](#data-science-machine-learning-roadmap)
-- [DevOps & Cloud Engineering ☁️](#devops-cloud-engineering-roadmap)
-- [Additional Resources 📚](#additional-resources)
+- [Frontend Development 🖥️]
+- [Backend Development ⚙️]
+- [Full-Stack Development 🌐]
+- [Data Science & Machine Learning 📊]
+- [DevOps & Cloud Engineering ☁️]
+- [Additional Resources 📚]
 
 ---
 
