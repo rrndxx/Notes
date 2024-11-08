@@ -20,4 +20,13 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
+```
+
+`initializeApp` initializes the Firebase app with your project's configuration object.
+The `firebaseConfig` object contains your Firebase project credentials, such as `apiKey`, `authDomain`, etc.
+
+## Firebase Authentication
+
+
+
 
