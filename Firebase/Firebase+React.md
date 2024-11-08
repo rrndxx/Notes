@@ -197,8 +197,8 @@ const DataPage = () => {
 export default DataPage;
 
 ```
-### File Directory Structure for Firestore
-## Here’s a recommended structure for Firestore logic:
+## File Directory Structure for Firestore
+### Here’s a recommended structure for Firestore logic:
 ```lua
 src/
 |-- firestore.js        # Firestore CRUD logic
@@ -207,8 +207,8 @@ src/
 |-- firebase-config.js   # Firebase config file
 ```
 
-### 4. Firebase Realtime Database
-## For real-time data syncing, Firebase also provides the Realtime Database.
+## 4. Firebase Realtime Database
+### For real-time data syncing, Firebase also provides the Realtime Database.
 
 ### a. Create `realtimeDatabase.js` for Realtime Database Logic
 ```javascript
@@ -272,14 +272,14 @@ src/
 |   |-- RealtimeDataPage.js # Realtime data display and manipulation components
 |-- firebase-config.js     # Firebase config file
 ```
-### 5. Firebase Cloud Messaging (Optional)
+## 5. Firebase Cloud Messaging (Optional)
 ### For push notifications, Firebase Cloud Messaging (FCM) can be used. However, this requires additional setup on both the Firebase Console and your React app. Refer to Firebase documentation for full setup instructions on using FCM.
 
 ---
-### Conclusion
-## The above examples demonstrate how to integrate Firebase services such as Authentication, Firestore, and Realtime Database into your React project. The recommended structure organizes components and logic files to maintain clarity and separation of concerns. Make sure to follow modern practices and handle sensitive information securely, especially when dealing with Firebase configuration.
+# Conclusion
+### The above examples demonstrate how to integrate Firebase services such as Authentication, Firestore, and Realtime Database into your React project. The recommended structure organizes components and logic files to maintain clarity and separation of concerns. Make sure to follow modern practices and handle sensitive information securely, especially when dealing with Firebase configuration.
 
-## Ensure all sensitive data (like Firebase API keys) is stored securely (e.g., environment variables) and avoid hardcoding them in your source code.
+### Ensure all sensitive data (like Firebase API keys) is stored securely (e.g., environment variables) and avoid hardcoding them in your source code.
 
 
 
