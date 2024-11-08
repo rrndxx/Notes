@@ -232,9 +232,9 @@ const downloadFile = async (filePath) => {
 
 # Conclusion
 
-# These are some of the most common Firebase code snippets and logic for Firebase services such as Authentication, Firestore, Realtime Database, and Firebase Storage. The code is structured in a way to be easy to integrate into your JavaScript projects. Be sure to use Firebase SDK's latest version and follow security rules to protect sensitive information, such as API keys, during development.
+These are some of the most common Firebase code snippets and logic for Firebase services such as Authentication, Firestore, Realtime Database, and Firebase Storage. The code is structured in a way to be easy to integrate into your JavaScript projects. Be sure to use Firebase SDK's latest version and follow security rules to protect sensitive information, such as API keys, during development.
 
-# Keep this document as a reference whenever you need to integrate Firebase services into your project!
+Keep this document as a reference whenever you need to integrate Firebase services into your project!
 
 
 
