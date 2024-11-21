@@ -32,7 +32,6 @@ export default app;
 
 src/contexts/AuthContext.js
 ```javascript
-Copy code
 // src/contexts/AuthContext.js
 import React, { createContext, useState, useEffect } from "react";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
@@ -69,7 +68,6 @@ export const AuthProvider = ({ children }) => {
 
 src/auth.js
 ```javascript
-Copy code
 // src/auth.js
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "firebase/auth";
 import app from "./firebase-config";
@@ -96,7 +94,6 @@ src/index.js
 ## Wrap your entire app with the AuthProvider to provide the authentication state globally.
 
 ```javascript
-Copy code
 // src/index.js
 import React from "react";
 import ReactDOM from "react-dom";
@@ -114,7 +111,6 @@ src/App.js
 ## Use the AuthContext to show different views based on whether the user is authenticated.
 
 ```javascript
-Copy code
 // src/App.js
 import React, { useContext } from "react";
 import { AuthContext } from "./contexts/AuthContext";
@@ -142,7 +138,6 @@ export default App;
 
 src/components/LoginPage.js
 ```javascript
-Copy code
 // src/components/LoginPage.js
 import React, { useState, useContext } from "react";
 import { loginUser, registerUser } from "../auth";
@@ -205,7 +200,6 @@ export default LoginPage;
 
 src/components/ProtectedPage.js
 ```javascript
-Copy code
 // src/components/ProtectedPage.js
 import React, { useContext } from "react";
 import { AuthContext } from "../contexts/AuthContext";
@@ -232,7 +226,6 @@ export default ProtectedPage;
 
 src/components/LogoutButton.js
 ```javascript
-Copy code
 // src/components/LogoutButton.js
 import React from "react";
 import { logoutUser } from "../auth";
@@ -256,7 +249,6 @@ export default LogoutButton;
 ## Here's the directory structure for the app:
 
 ```lua
-Copy code
 src/
 |-- auth.js                  # Firebase Authentication logic
 |-- contexts/
