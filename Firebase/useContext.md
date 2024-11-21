@@ -2,13 +2,12 @@
 ## First, install Firebase:
 
 ```bash
-Copy code
 npm install firebase
+```
 Then, create a Firebase configuration file:
 
 src/firebase-config.js
-javascript
-Copy code
+```javascript
 // src/firebase-config.js
 import { initializeApp } from "firebase/app";
 
