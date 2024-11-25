@@ -12,7 +12,7 @@ Welcome to your comprehensive guide to mastering the hottest technologies of **2
 
 ---
 
-## 🖥️ Frontend Development Roadmap
+## 🖥️ Frontend Development Roadmapasdgsaasfafsfasf
 
 ### 1. **Core Web Technologies**  
 Start with the **foundation** of every web application:
